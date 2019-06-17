@@ -10,6 +10,7 @@ see https://github.com/holgerkenn/pi-gen for a pre-built raspbian that meets all
 To prepare jupyter, run:
 
 `jupyter notebook --generate-config`
+
 `jupyter notebook password`
 
 "run-jupyter.sh" starts up a jupypter notebook server that is accessible from outside. Do not run this on the open internet.
