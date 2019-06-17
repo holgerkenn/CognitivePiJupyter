@@ -1,0 +1,3 @@
+[submodule "camera/cognitive-services-python-sdk-samples"]
+	path = camera/cognitive-services-python-sdk-samples
+	url = https://github.com/Azure-Samples/cognitive-services-python-sdk-samples.git
