@@ -19,6 +19,10 @@ To run the jupyter notebooks at boot, install the file "crontab" as crontab.
 
 ## complete setup and walkthrough
 
-See [Setup](doc/setup.md) for instructions how to set up a new Raspberry Pi Zero with the custom raspbian and prepare everything for these examples.
+See [Intro](doc/intro.md) for complete instructions to set up a Pi run the examples.
+
+See [Setup](doc/setup.md) for setting up a new Raspberry Pi Zero with the custom Raspbian image that includes Juypter.
+
+See [Download](doc/download) for instructions to download and install this project on your Raspberry Pi, this will only work if you already have Jupyter and other prerequisites installed.
 
 
