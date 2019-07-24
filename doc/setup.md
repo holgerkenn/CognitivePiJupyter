@@ -51,6 +51,6 @@ psk="<yournetwork password>"
 * Accept the SSH host key (click YES) 
 * Username is “pi”, initial password is “raspberry”.  
 * You should see something like this: 
-![Putty Terminal Windows](putty-terminal.png)
+![Putty Terminal Window](putty-terminal.png)
 * As an alternative, you can also attach screen, mouse and keyboard to your raspberry pi and use it to perform these instructions. You can use the shell icon on the desktop to get a command shell. 
-
+![Command Shell on Raspbian Desktop](desktop-command-window.png)
