@@ -6,6 +6,6 @@ The documentation covers initial device setup and a walkthrough of the demos
 
 [Download this project](download.md)
 
-[Walkthrough 1: Image Classification via Microsoft Azure Custom Vision](walkthroug-1.md)
+[Walkthrough 1: Image Classification via Microsoft Azure Custom Vision](walkthrough-1.md)
 
 
