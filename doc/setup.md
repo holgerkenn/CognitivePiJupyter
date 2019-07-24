@@ -23,20 +23,20 @@
 ## Installation
 
 * Flash SD card with Raspbian using balenaEtcher 
-** Run Etcher and flash .zip file to micro SD card. 
-** DON’T unpack zip to SD card, this will not work!
+  * Run Etcher and flash .zip file to micro SD card. 
+  * DON’T unpack zip to SD card, this will not work!
 * After flashing, the “boot” filesystem of the raspberry pi will appear as a new drive. 
 * Change the configuration in the boot file system
-** Open cmdline.txt and add "modules-load=dwc2,g_ether" behind "rootwait" to the commandline
-** Open config.txt and add “dtoverlay=dwc2” in a new line at the end of the file 
-** Add a file wpa_supplicant.conf to the boot directory with the following content: 
+  * Open cmdline.txt and add "modules-load=dwc2,g_ether" behind "rootwait" to the commandline
+  * Open config.txt and add “dtoverlay=dwc2” in a new line at the end of the file 
+  * Add a file wpa_supplicant.conf to the boot directory with the following content: 
 `
 country=GB 
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
 update_config=1 
 ap_scan=1 
 `
-** Add the following section to the file if you use a network with a name and password, put in your network SSID and password: 
+  * Add the following section to the file if you use a network with a name and password, put in your network SSID and password: 
 `
 network={ 
 ssid="<yournetworkname>" 
@@ -64,15 +64,15 @@ psk="<yournetwork password>"
 ## Setup instructions once the Raspberry Pi is up and running
 
 * enable the Raspberry Pi Camera
-** type `sudo raspi-config`
-** then select entry "5 – Interfacing Options" 
-** and there "P1 Camera", 
-** then select "yes". 
-** Return to the main menu
-** select "reboot" on exit.
-** The raspberry pi will terminate the connection and reboot.
+  * type `sudo raspi-config`
+  * then select entry "5 – Interfacing Options" 
+  * and there "P1 Camera", 
+  * then select "yes". 
+  * Return to the main menu
+  * select "reboot" on exit.
+  * The raspberry pi will terminate the connection and reboot.
 * test the camera
-** wait for the Raspberry Pi to reboot and connect again as described above.
-** take a picture via the command line: `raspistill -o test.jpg`
-** (taking the picture takes about 10 seconds)
-** See https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md for more information on the camera. 
+  * wait for the Raspberry Pi to reboot and connect again as described above.
+  * take a picture via the command line: `raspistill -o test.jpg`
+  * (taking the picture takes about 10 seconds)
+  * See https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md for more information on the camera. 
