@@ -27,22 +27,22 @@
   * DON’T unpack zip to SD card, this will not work!
 * After flashing, the “boot” filesystem of the raspberry pi will appear as a new drive. 
 * Change the configuration in the boot file system
-  * Open cmdline.txt and add "modules-load=dwc2,g_ether" behind "rootwait" to the commandline
-  * Open config.txt and add “dtoverlay=dwc2” in a new line at the end of the file 
+  * Open cmdline.txt and add `modules-load=dwc2,g_ether` behind `rootwait` to the commandline
+  * Open config.txt and add `dtoverlay=dwc2` in a new line at the end of the file 
   * Add a file wpa_supplicant.conf to the boot directory with the following content: 
-`
+```
 country=GB 
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
 update_config=1 
 ap_scan=1 
-`
+```
   * Add the following section to the file if you use a network with a name and password, put in your network SSID and password: 
-`
+```
 network={ 
 ssid="<yournetworkname>" 
 psk="<yournetwork password>" 
 } 
-`
+```
 * Insert the SD card into the Pi 
 * Connect the power supply to the Raspberry Pi 
 * Check the web page of your router to see if the Raspberry Pi successfully connected to it, note its IP address.
