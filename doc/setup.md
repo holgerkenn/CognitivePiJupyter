@@ -60,3 +60,19 @@ psk="<yournetwork password>"
 
 ![Command Shell on Raspbian Desktop](desktop-command-window.png)
 
+
+## Setup instructions once the Raspberry Pi is up and running
+
+* enable the Raspberry Pi Camera
+** type `sudo raspi-config`
+** then select entry "5 – Interfacing Options" 
+** and there "P1 Camera", 
+** then select "yes". 
+** Return to the main menu
+** select "reboot" on exit.
+** The raspberry pi will terminate the connection and reboot.
+* test the camera
+** wait for the Raspberry Pi to reboot and connect again as described above.
+** take a picture via the command line: `raspistill -o test.jpg`
+** (taking the picture takes about 10 seconds)
+** See https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md for more information on the camera. 
