@@ -19,6 +19,7 @@
 * Download and install etcher https://www.balena.io/etcher/ 
 * Download and install putty https://www.chiark.greenend.org.uk/~sgtatham/putty/  
 * Download or build custom Raspbian (See https://github.com/holgerkenn/pi-gen )
+  * Direct download link https://github.com/holgerkenn/pi-gen/releases/download/v0.1/image_2019-05-22-vision-full.zip
 
 ## Installation
 
