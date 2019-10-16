@@ -44,6 +44,7 @@ ssid="<yournetworkname>"
 psk="<yournetwork password>" 
 } 
 ```
+* add an empty file called "ssh" to enable ssh access
 * Insert the SD card into the Pi 
 * Connect the power supply to the Raspberry Pi 
 * Check the web page of your router to see if the Raspberry Pi successfully connected to it, note its IP address.
