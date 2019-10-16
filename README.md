@@ -23,6 +23,6 @@ See [Intro](doc/intro.md) for complete instructions to set up a Pi run the examp
 
 See [Setup](doc/setup.md) for setting up a new Raspberry Pi Zero with the custom Raspbian image that includes Juypter.
 
-See [Download](doc/download) for instructions to download and install this project on your Raspberry Pi, this will only work if you already have Jupyter and other prerequisites installed.
+See [Download](doc/download.md) for instructions to download and install this project on your Raspberry Pi, this will only work if you already have Jupyter and other prerequisites installed.
 
 
