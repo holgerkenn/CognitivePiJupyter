@@ -27,14 +27,14 @@ To prepare jupyter, run:
 
 `jupyter notebook password` and enter a password of your choice. 
 
-
-`run-jupyter.sh` starts up a jupypter notebook server.
+`run-jupyter.sh` starts up a jupyter notebook server.
 
 Although a password has been set, this server is now accessible from any machine that has access to the network and the communication is using the unencrypted http protocol, i.e. your password will go over the network unencrypted as well. The Jupyter notebook environment includes the ability to run arbitrary commands on your Raspberry Pi. Only run this on trusted networks. Do not run this on the open internet.
 
 To run the jupyter notebooks at boot, install the file "crontab" as crontab, but make sure you have set up a password (see above):
 
 `crontab CognitivePiJupyter/crontab` (git clone version) or
+
 `crontab CognitivePiJupyter-master/crontab` (zip download version)
 
 
